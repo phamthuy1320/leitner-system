@@ -1,0 +1,20 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": ["react-app", "eslint:recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "no-restricted-globals" : "warn",
+    "react/jsx-no-target-blank" : "off"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts?(x)", "**/index.tsx"],
+      "rules": { "prettier/prettier": ["warn"] }
+    }
+  ],
+  "ignorePatterns": ["node_modules", "build", ".idea"]
+}
