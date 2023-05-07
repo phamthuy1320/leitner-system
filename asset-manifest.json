@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/phamthuy1320/leitner-system/static/css/main.5d212910.css",
+    "main.js": "/phamthuy1320/leitner-system/static/js/main.cc8c6a09.js",
+    "static/js/787.383dd9af.chunk.js": "/phamthuy1320/leitner-system/static/js/787.383dd9af.chunk.js",
+    "index.html": "/phamthuy1320/leitner-system/index.html",
+    "main.5d212910.css.map": "/phamthuy1320/leitner-system/static/css/main.5d212910.css.map",
+    "main.cc8c6a09.js.map": "/phamthuy1320/leitner-system/static/js/main.cc8c6a09.js.map",
+    "787.383dd9af.chunk.js.map": "/phamthuy1320/leitner-system/static/js/787.383dd9af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d212910.css",
+    "static/js/main.cc8c6a09.js"
+  ]
+}
