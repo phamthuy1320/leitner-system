@@ -1,18 +1,20 @@
 import * as React from "react";
-import { Box, Flex } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import { NewWord } from "../molecules/NewWord";
 import { ListBox } from "../molecules/ListBox";
 import { Card } from "../atoms/Card";
 import { useWordContext } from "../../context/useWordContext";
+import { Select } from "../atoms/Select";
+import { Layout } from "../molecules/Layout";
 
 export interface INewCycleProps {}
 
 export const NewCycle = (props: ReturnType<typeof useNewCycle>) => {
   const { data } = useWordContext();
   return (
-    <Box>
+    <Layout>
       <NewWord />
-      <Card>
+      <Card hidden>
         <Flex flexWrap={"wrap"}>
           <ListBox name={"box1"} list={data.box1} />
           <ListBox name={"box2"} list={data.box2} />
@@ -21,7 +23,8 @@ export const NewCycle = (props: ReturnType<typeof useNewCycle>) => {
           <ListBox name={"box5"} list={data.box5} />
         </Flex>
       </Card>
-    </Box>
+      <Select />
+    </Layout>
   );
 };
 
